@@ -3,10 +3,10 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('background.jpg'); /* เปลี่ยนเป็นชื่อไฟล์ภาพที่คุณต้องการใช้ */
-    background-size: cover; /* ให้ภาพครอบคลุมเต็มหน้าจอ */
-    background-position: center center; /* จัดตำแหน่งภาพที่กึ่งกลาง */
-    background-repeat: no-repeat; /* ห้ามให้ภาพซ้ำ */
+    background-image: url('asset/images/221.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
 }
 
 /* สไตล์สำหรับ login-container */
@@ -25,7 +25,6 @@ h2 {
     color: #333;
 }
 
-/* รูปแบบของฟอร์ม */
 form {
     display: flex;
     flex-direction: column;
