@@ -1,37 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOXING</title>
-
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet" />
-
-    <style>
-        body{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            background-color: aliceblue;
-
-        }
-
-        h1 {
-            color: red;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-
-    </style>
+    <title>หน้า Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="container-fluid text-center">
+    <div class="login-container">
+        <h2>เข้าสู่ระบบ</h2>
+        <form id="loginForm">
+            <label for="username">username:</label>
+            <input type="text" id="username" name="username" required><br><br>
 
-        <h1>BOXING</h1>
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" required><br><br>
 
+            <button type="submit">เข้าสู่ระบบ</button>
+        </form>
+        <p id="error-message" style="color:red; display:none;">ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง</p>
     </div>
-    
+
+    <script src="login.js"></script>
 </body>
 </html>
